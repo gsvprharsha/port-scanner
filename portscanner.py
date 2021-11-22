@@ -1,7 +1,6 @@
 import socket
 from IPy import IP
 from termcolor import colored
-#testphp.vulnweb.com ip = 18.192.172.30
 
 def scan(target, port_range):
     converted_ip = check_ip(target)
