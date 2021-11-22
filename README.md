@@ -29,8 +29,18 @@ To use this tool you need to simply type in the following command
 ```
 python3 portscanner.py
 ```
-You can use multiple targets like follows
+You can mention target like follows when prompted
 ```
-[+]Enter the Target/s to initiate Scan(Split Multiple Targets with , ): 10.0.2.1, www.example.com, www.example2.com
+[+]Enter the Target/s to initiate Scan(Split Multiple Targets with , ): 10.0.2.1
+```
+To mention multiple targets seperate them with ,
+```
+[+]Enter the Target/s to initiate Scan(Split Multiple Targets with , ): 10.0.2.1, 10.0.2.2, www.example.com
 ```
 
+# Features
+• Multiple Target Scanning
+• IP, URLs accepted.
+
+# Issues
+If you find any issues with this tool, then please feel free to contribute to it.
